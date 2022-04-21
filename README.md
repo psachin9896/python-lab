@@ -1,2 +1,2 @@
 # python-lab
-python lab session
+python lab problems session
