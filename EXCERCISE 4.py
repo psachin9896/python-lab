@@ -4,7 +4,7 @@ lst = [35, 53, (525, 6743), 64, 63, [743, 754, 757]]
 
 def flatten(lst):
     result = []
-    if isinstance(lst, (list, tuple, dict)):
+    if isinstance(lst, (list, tuple)):
         """ Isinstance returns True if the specified object is of the specified type, otherwise False 
            we had one nested list ans tuple in list so its True in our case 
            if we propose dictionary inside a list it will be false"""
